@@ -4,6 +4,7 @@
  * Classe que implementa as funções de insert, update, read e delete no banco.
  *
  * @author Josinaldo
+ * Giselly - Estudos
  */
 abstract class Crud extends Conn {
 

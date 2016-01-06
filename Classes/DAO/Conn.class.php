@@ -4,6 +4,7 @@
  * Cria a conexão com o banco e retorna um objeto PDO
  *
  * @author Josinaldo
+ * Giselly - Estudos
  */
 abstract class Conn {
 

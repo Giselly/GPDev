@@ -7,7 +7,7 @@
  */
 
 class Url {
-
+    
     /**
      * getURL
      * Retorna um array com a URL atual
@@ -21,6 +21,7 @@ class Url {
         } else {
             /** Inicializa apenas com o login */
             return array('home');
+    
         }
     }
 

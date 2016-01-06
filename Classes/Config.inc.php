@@ -1,17 +1,18 @@
 <?php
 
 /** Configurações do site */
-define('HOST', 'localhost');
-define('USER', 'root');
-define('PASS', 'vertrigo');
-define('DBSA', 'gpd');
 
 /** @var string */
 $host = is_string($_SERVER["HTTP_HOST"]) ? $_SERVER["HTTP_HOST"] : "" ;
-define('RAIZ', "http://{$host}/GerProjDev/");
+
+define('HOST', 'localhost');
+define('USER', 'root');
+define('PASS', 'vertrigo');
+define('DBSA', 'teste');
+define('RAIZ', "http://{$host}/ProjectPM");
 
 /**
- * __autoloadS
+ * __autoload
  * Buscar e inclue o arquivo da classe
  * 
  * @param string nome da classe
